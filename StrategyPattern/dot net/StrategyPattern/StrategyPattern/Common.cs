@@ -6,7 +6,4 @@
         Electronics,
         Fragile
     }
-    class Common
-    {
-    }
 }
