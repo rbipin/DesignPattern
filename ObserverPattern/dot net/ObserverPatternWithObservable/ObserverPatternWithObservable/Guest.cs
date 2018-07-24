@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    class Guest : IObserver
+    public class Guest : IObserver
     {
         string GuestName = string.Empty;
         GroupTour data = null;

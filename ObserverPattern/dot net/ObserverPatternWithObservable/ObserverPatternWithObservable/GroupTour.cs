@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
     //This acts as the data object and also the Subject
-    class GroupTour : AObservable
+    public class GroupTour : AObservable
     {
         List<IObserver> Observers = new List<IObserver>();
 

@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    abstract class AObservable
+    public abstract class AObservable
     {
         List<IObserver> Observers = new List<IObserver>();
         bool state = false;
