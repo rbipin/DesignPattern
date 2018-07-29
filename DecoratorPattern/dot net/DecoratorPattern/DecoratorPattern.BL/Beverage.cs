@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace ObserverPattern.BL
 {
+    /// <summary>
+    /// This is Base class
+    /// </summary>
     public abstract class Beverage
     {
        public enum Size { TALL, GRANDE, VENTI};
