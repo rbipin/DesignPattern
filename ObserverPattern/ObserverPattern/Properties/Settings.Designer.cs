@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TourApp.Properties
+namespace ObserverPattern.Properties
 {
 
 
